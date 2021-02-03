@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="script.js"></script>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url('../Images/bg1.jpg');
+}
+
+.button {
+  background-color: palegoldenrod; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  margin-left: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button:hover{
+  background-color: black;
+  color: antiquewhite;
+}
+
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#section1 {
+  height: 100%;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  color: antiquewhite;
+  padding-top: 155px;
+  padding-bottom: 155px;
+  font-size: 20px;
+}
+
+#section2 {
+  height: 100vh;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  color: antiquewhite;
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+
+#section3 {
+  height: 100vh;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  color: antiquewhite;
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+
+#section4 {
+  height: 100vh;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  color: antiquewhite;
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+
+#section5 {
+  height: 100vh;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  color: antiquewhite;
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+
+#section6 {
+  height: 100vh;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  color: antiquewhite;
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="main" id="section1"> 
+  <img src="../Images/display.jpg" >
+  <p class="center">Hey! We need you to answer some questions <br>about your choice of portfolio. Answers <br>question to best of your knowledge so that<br> we can provide you with the best type<br> of portfolio that will suit your choice</p>
+  <button class="button" onclick="window.location.href='#section2';">Start</button>
+</div>
+
+<div class="main" id="section2">
+  <h1>1. What type of portfolio do you want?</h1>
+  <button class="button" onclick="window.location.href='#section3';" id="retro">Retro</button>
+  <button class="button" onclick="window.location.href='#section3';" id="classic">Modern</button>
+  <button class="button" onclick="window.location.href='#section3';" id="scifi">Sci-Fi</button>
+</div>
+<div class="main" id="section3">
+  <h1>2. Do you want your portfolio to be simple or complex?</h1>
+  <button class="button" onclick="window.location.href='#section4';" id="simple">Simple</button>
+  <button class="button" onclick="window.location.href='#section4';" id="complex">Complex</button>
+</div>
+<div class="main" id="section4">
+  <h1>3. Do you want your portfolio to be colourful or monochrome?</h1>
+  <button class="button" onclick="window.location.href='#section5';">Colourful</button>
+  <button class="button" onclick="window.location.href='#section5';">Monochrome</button>
+</div>
+<div class="main" id="section5">
+  <h1>4. Do you want your portfolio to be long or short?</h1>
+  <button class="button" onclick="window.location.href='#section6';">Long</button>
+  <button class="button" onclick="window.location.href='#section6';">Short</button>
+</div>
+<div class="main" id="section6">
+  <h1>5. Do you want your portfolio to be printable?</h1>
+  <button class="button" onclick="window.location.href='#section1';">Yes</button>
+  <button class="button" onclick="window.location.href='#section1';">No</button>
+</div>
+
+</body>
+</html>
